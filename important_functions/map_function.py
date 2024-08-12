@@ -13,10 +13,10 @@ print(list(lengths2))
 
 #['mys', 'worlds', 'apples', 'pears']
 
-def add_s(string):
+def add_symbol(string):
     return string + "/"
 
-lengths3 = map(add_s, strings)
+lengths3 = map(add_symbol, strings)
 print(list(lengths3))
 
 #['my/', 'world/', 'apple/', 'pear/']

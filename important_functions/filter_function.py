@@ -1,5 +1,5 @@
 '''
-La función filter cojerá cada valor en un objeto iterable, le pasará una función
+La función filter cojerá cada elemento en un objeto iterable, le pasará una función que definamos nosotros
 y si el resultado es True, retornará la función, si es False, eliminará el valor iterable
 que no pase el filtro.
 
